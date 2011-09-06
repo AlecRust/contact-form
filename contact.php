@@ -43,8 +43,7 @@ $_SESSION['question'] = (string) $answer;
                 <p>All fields marked with <span class="required">*</span> are required.</p>
                 <fieldset>
                     <p>
-                        <label>
-                            Name: <span class="required">*</span>
+                        <label>Name: <span class="required">*</span>
                             <input type="text" id="name" name="name" autocomplete="on" required="required" />
                         </label>
                     </p>
@@ -61,6 +60,7 @@ $_SESSION['question'] = (string) $answer;
                     <p>
                         <label>Options:
                             <select id="option" name="option">
+                                <option value="None">Choose an option</option>
                                 <option value="Option 1">Option 1</option>
                                 <option value="Option 2">Option 2</option>
                                 <option value="Option 3">Option 3</option>
