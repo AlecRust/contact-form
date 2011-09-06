@@ -1,11 +1,20 @@
-/* Misc Styles (ignore) */body{font-family:sans-serif;background:#eee}.content{width:830px;margin:auto;padding:10px;background:#fff}
+/* Misc Styles (ignore) */body{font-family:sans-serif;background:#eee}.content{width:810px;margin:auto;padding:5px 20px;background:#fff}
 
 /* Contact Form styles ---------- */
 
 /* Main <form> container */
 .contact-form .required {
     font-weight: bold;
+    font-size: 110%;
     color: #f00;
+}
+
+.contact-form p { margin: 0 0 15px; }
+
+.contact-form fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .contact-form input[type=text],
@@ -18,8 +27,8 @@
     width: 98%;
 }
 
-.contact-form fieldset { border: 0; }
-.contact-form p { margin: 0 0 15px; }
 .contact-form select { width: auto; }
+
 .contact-form textarea { font-family:sans-serif; }
+
 .contact-form button { padding: 5px; }
