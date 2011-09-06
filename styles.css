@@ -2,7 +2,6 @@
 
 /* Contact Form styles ---------- */
 
-/* Main <form> container */
 .contact-form .required {
     font-weight: bold;
     font-size: 110%;
@@ -17,11 +16,9 @@
     margin: 0;
 }
 
-.contact-form input[type=text],
-.contact-form input[type=email],
-.contact-form input[type=tel],
-.contact-form textarea,
-.contact-form select {
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
     display: block;
     padding: 5px;
     width: 98%;
@@ -31,4 +28,7 @@
 
 .contact-form textarea { font-family:sans-serif; }
 
-.contact-form button { padding: 5px; }
+.contact-form button {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
