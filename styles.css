@@ -1,7 +1,6 @@
 /* Misc Styles (ignore) */body{font-family:sans-serif;background:#eee}.content{width:810px;margin:auto;padding:5px 20px;background:#fff}
 
 /* Contact Form styles ---------- */
-
 .contact-form .required {
     font-weight: bold;
     font-size: 110%;
@@ -9,6 +8,8 @@
 }
 
 .contact-form p { margin: 0 0 15px; }
+
+.contact-form .send-button { text-align: center; }
 
 .contact-form fieldset {
     border: 0;

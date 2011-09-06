@@ -29,7 +29,7 @@ $question = 'What does '.$int1.' '.$method.' '.$int2.' make?';
 $_SESSION['question'] = (string) $answer;
 
 ?>
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <title>Contact Form Template</title>
@@ -40,7 +40,7 @@ $_SESSION['question'] = (string) $answer;
         <div class="content">
             <h1>Contact Form</h1>
             <form action="contact-send.php" method="post" class="contact-form">
-                <p>All fields marked with <span class="required">*</span> are required.</p>
+                <p>Fields marked with <span class="required">*</span> are required.</p>
                 <fieldset>
                     <p>
                         <label>Name: <span class="required">*</span>
@@ -77,7 +77,7 @@ $_SESSION['question'] = (string) $answer;
                             <input type="text" id="question" name="question" placeholder="(just for security)" autocomplete="off" required="required" />
                         </label>
                     </p>
-                    <p>
+                    <p class="send-button">
                         <button>Send message</button>
                     </p>
                 </fieldset>
