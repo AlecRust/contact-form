@@ -39,23 +39,23 @@ $_SESSION['question'] = (string) $answer;
     <body>
         <div class="content">
             <h1>Contact Form</h1>
-            <p>Alec's contact form template.</p>
-            <form action="send.php" method="post" class="contact-form">
+            <form action="contact-send.php" method="post" class="contact-form">
+                <p>All fields marked with <span class="required">*</span> are required.</p>
                 <fieldset>
                     <p>
                         <label>
-                            Name:
+                            Name: <span class="required">*</span>
                             <input type="text" id="name" name="name" autocomplete="on" required="required" />
                         </label>
                     </p>
                     <p>
-                        <label>Email:
+                        <label>Email: <span class="required">*</span>
                             <input type="email" id="email" name="email" autocomplete="on" required="required" />
                         </label>
                     </p>
                     <p>
                         <label>Phone:
-                            <input type="tel" id="phone" name="phone" placeholder="(not required)" autocomplete="on" />
+                            <input type="tel" id="phone" name="phone" autocomplete="on" />
                         </label>
                     </p>
                     <p>
@@ -68,12 +68,12 @@ $_SESSION['question'] = (string) $answer;
                         </label>
                     </p>
                     <p>
-                        <label>Message:
+                        <label>Message: <span class="required">*</span>
                             <textarea id="message" name="message" required="required" rows="10"></textarea>
                         </label>
                     </p>
                     <p>
-                        <label><?php echo($question) ?>
+                        <label><?php echo($question) ?> <span class="required">*</span>
                             <input type="text" id="question" name="question" placeholder="(just for security)" autocomplete="off" required="required" />
                         </label>
                     </p>

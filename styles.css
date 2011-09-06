@@ -1,12 +1,12 @@
-/* Misc Styles (ignore) */
-body{font-family:sans-serif;background:#eee}.content{width:830px;margin:auto;padding:10px;background:#fff}
+/* Misc Styles (ignore) */body{font-family:sans-serif;background:#eee}.content{width:830px;margin:auto;padding:10px;background:#fff}
 
 /* Contact Form styles ---------- */
 
 /* Main <form> container */
-.contact-form fieldset { border: 0; }
-
-.contact-form p { margin: 0 0 15px; }
+.contact-form .required {
+    font-weight: bold;
+    color: #f00;
+}
 
 .contact-form input[type=text],
 .contact-form input[type=email],
@@ -18,6 +18,8 @@ body{font-family:sans-serif;background:#eee}.content{width:830px;margin:auto;pad
     width: 98%;
 }
 
+.contact-form fieldset { border: 0; }
+.contact-form p { margin: 0 0 15px; }
 .contact-form select { width: auto; }
-
+.contact-form textarea { font-family:sans-serif; }
 .contact-form button { padding: 5px; }
